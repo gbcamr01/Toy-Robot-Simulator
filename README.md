@@ -1,6 +1,6 @@
 <h2>Toy Robot Simulator</h2>
 This toy robot is a simulator of a toy robot that moves on a tabletop.
-A full requirements specification can be found <a href = "https://github.com/jeff1978/Toy-Robot-Simulator/blob/master/ToyRobotSimulator/App%20Specification.txt">here.</a>
+A full requirements specification can be found <a href = "https://github.com/jeff1978/Toy-Robot-Simulator/blob/master/ToyRobotSimulator/App%20Specification.txt">/ToyRobotSimulator/App Specification.txt</a>
 
 <h2>Usage</h2>
 Toy Robot Simulator is a console application. It opens and gives the user instructions on how to place and interact with the toy.
