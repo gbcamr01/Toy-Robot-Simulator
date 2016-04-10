@@ -6,9 +6,7 @@ This toy robot is a simulator of a toy robot that moves on a tabletop.
 Toy Robot Simulator is a console application. It opens and gives the user instructions on how to place and interact with the toy.
 
 <h3>Valid commands</h3>
-PLACE X,Y,FACING
-
-This puts the toy on the table in position X,Y and facing NORTH, SOUTH, EAST or WEST. If the toy is already placed, issuing another valid PLACE command will place the toy in the newly specified location.
+PLACE X,Y,FACING<br>This puts the toy on the table in position X,Y and facing NORTH, SOUTH, EAST or WEST. If the toy is already placed, issuing another valid PLACE command will place the toy in the newly specified location.
 
 MOVE
 This moves the toy one unit forward in the direction it is currently facing.
