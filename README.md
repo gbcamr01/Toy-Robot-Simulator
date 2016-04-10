@@ -2,7 +2,7 @@
 This toy robot is a simulator of a toy robot that moves on a tabletop.
 <br>A full requirements specification can be found here: <a href = "https://github.com/jeff1978/Toy-Robot-Simulator/blob/master/ToyRobotSimulator/App%20Specification.txt">/ToyRobotSimulator/App Specification.txt</a>
 
-<h2>Usage</h2>
+<h3>Usage</h3>
 Toy Robot Simulator is a console application. It opens and gives the user instructions on how to place and interact with the toy.
 
 <h2>Valid commands</h2>
@@ -38,8 +38,8 @@ A full list of information sources can be found here: <a href = "https://github.
 Existing issues can be logged on the <a href = "https://github.com/jeff1978/Toy-Robot-Simulator/issues">Issues page.</a>
 
 <h2>Unit Testing</h2>
-C# Test files are found here: ToyRobotSimulator.Test
-Tests were run using the following packages: NUnit 2.6.4 and NUnit Test Adapter 2.0.0
+C# Test files are found here: <a href = "">\ToyRobotSimulator.Test</a>
+<br>Tests were run using the nuget packages: NUnit 2.6.4 and NUnit Test Adapter 2.0.0
 
 <h2>Future Developement Work</h2>
 The the design and use of the interfaces requires refactoring from their current working form.
