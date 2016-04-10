@@ -35,7 +35,7 @@ The executable file can be opened by double clicking it. The user can follow ins
 A full list of information sources can be found here: <a href = "https://github.com/jeff1978/Toy-Robot-Simulator/blob/master/ToyRobotSimulator/Acknowledgements.txt">\ToyRobotSimulator\Acknowledgements.txt.</a>
 
 <h2>Issues</h2>
-Existing issues can be logged on the Issues page.
+Existing issues can be logged on the <a href = "https://github.com/jeff1978/Toy-Robot-Simulator/issues">Issues page.</a>
 
 <h2>Unit Testing</h2>
 C# Test files are found here: ToyRobotSimulator.Test
