@@ -20,14 +20,16 @@ This rotates toy 90 degrees to the right (i.e. clockwise) without changing the p
 REPORT
 This announces the X,Y and direction of the toy by printing to the console.
 
+EXIT This closes the application.
+
 <h3>Supported operating systems</h3>
 Toy Robot Simulator should run on any Windows operating system. It has been tested on Windows 10 Home Edition 32-bit.
 
 <h3>Installing</h3>
-The application runs in a single executable file. The file can be downloaded from: <a href = "https://github.com/jeff1978/Toy-Robot-Simulator/blob/master/ToyRobotSimulator/bin/Debug/ToyRobotSimulator.exe">\ToyRobotSimulator\bin\Debug\ToyRobotSimulator.exe</a>
+The application runs in a single executable file. The file can be downloaded from: <a href = "https://github.com/jeff1978/Toy-Robot-Simulator/blob/master/ToyRobotSimulator/bin/Debug/ToyRobotSimulator.exe">\ToyRobotSimulator\bin\Debug\ToyRobotSimulator.exe</a><br>Note: Some user priviledges may prevent the downloading or opening of this file type. Affected users should check with their network administrator.
 
 <h3>Running</h3>
-The executable file can be opened by double clicking it. The user can follow instructions on the console and also use it to type in their input.
+The executable file can be opened by double clicking it. The user can follow instructions on the console and also use it to type their input.
 
 <h3>Development Notes and Acknowledgements</h3>
 A full list of information sources can be found here: <a href = "https://github.com/jeff1978/Toy-Robot-Simulator/blob/master/ToyRobotSimulator/Acknowledgements.txt">\ToyRobotSimulator\Acknowledgements.txt.</a>
