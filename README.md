@@ -32,7 +32,7 @@ The application runs in a single executable file. The file can be downloaded fro
 The executable file can be opened by double clicking it. The user can follow instructions on the console and also use it to type in their input.
 
 <h2>Development Notes and Acknowledgements</h2>
-A full list of information sources can be found here: \ToyRobotSimulator\Acknowledgements.txt.
+A full list of information sources can be found here: <a href = "https://github.com/jeff1978/Toy-Robot-Simulator/blob/master/ToyRobotSimulator/Acknowledgements.txt">\ToyRobotSimulator\Acknowledgements.txt.</a>
 
 <h2>Issues</h2>
 Existing issues can be logged on the Issues page.
