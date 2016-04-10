@@ -38,7 +38,7 @@ A full list of information sources can be found here: <a href = "https://github.
 Existing issues can be logged on the <a href = "https://github.com/jeff1978/Toy-Robot-Simulator/issues">Issues page.</a>
 
 <h2>Unit Testing</h2>
-C# Test files are found here: <a href = "">\ToyRobotSimulator.Test</a>
+C# Test files are found here: <a href = "https://github.com/jeff1978/Toy-Robot-Simulator/tree/master/ToyRobotSimulator.Test">\ToyRobotSimulator.Test</a>
 <br>Tests were run using the nuget packages: NUnit 2.6.4 and NUnit Test Adapter 2.0.0
 
 <h2>Future Developement Work</h2>
