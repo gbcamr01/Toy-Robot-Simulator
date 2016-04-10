@@ -26,7 +26,7 @@ This announces the X,Y and direction of the toy by printing to the console.
 Toy Robot Simulator should run on any Windows operating system. It has been tested on Windows 10 Home Edition 32-bit.
 
 <h2>Installing</h2>
-The application runs in a single executable file. It can be downloaded from: \ToyRobotSimulator\bin\Debug\ToyRobotSimulator.exe
+The application runs in a single executable file. The file can be downloaded from: <a href = "https://github.com/jeff1978/Toy-Robot-Simulator/blob/master/ToyRobotSimulator/bin/Debug/ToyRobotSimulator.exe">\ToyRobotSimulator\bin\Debug\ToyRobotSimulator.exe</a>
 
 <h2>Running</h2>
 The executable file can be opened by double clicking it. The user can follow instructions on the console and also use it to type in their input.
