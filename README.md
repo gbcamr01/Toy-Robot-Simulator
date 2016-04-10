@@ -1,13 +1,6 @@
-**************************************
-**                                  **
-**        TOY SIMULATOR v1.0        **
-**                                  **
-**************************************
-
-
 This toy robot is a simulator of a toy robot that moves on a tabletop. A full requirements specification can be found here.
 
-Usage
+<b>Usage</b>
 
 Toy Robot Simulator is a console application. It opens and gives the user instructions on how to place and interact with the toy.
 
