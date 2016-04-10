@@ -42,7 +42,7 @@ C# Test files are found here: <a href = "https://github.com/jeff1978/Toy-Robot-S
 <br>Tests were run using the nuget packages: NUnit 2.6.4 and NUnit Test Adapter 2.0.0
 
 <h3>Future Developement Work</h3>
-The the design and use of the interfaces requires refactoring from their current working form.
+The the design and use of the interfaces requires refactoring from their current working form.<br>The classes for console checking also need to be checked for possible refactoring.
 
 <h3>Licence</h3>
 Toy Robot Simulator is licensed under the GNU Lesser General Public License v.3.0
