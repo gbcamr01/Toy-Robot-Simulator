@@ -7,7 +7,7 @@ namespace ToySimulator.ToyBoard
     /// This class is the board that the toy sits on. It has a properties for rows and colums.
     /// There is also a method for checking if the position of the toy is valid.
     /// </summary>
-    public class ToyBoard : ItoyBoard
+    public class ToyBoard : IToyBoard
     {
         public int Rows { get; private set; }
         public int Columns { get; private set; }
@@ -18,9 +18,7 @@ namespace ToySimulator.ToyBoard
             this.Columns = columns;
         }
 
-        /// <summary>
-        /// Check whether the position specified is inside the boundaries of the square board.
-
+        // Check whether the position specified is inside the boundaries of the square board.
         public bool IsValidPosition(Position position)
         {
             return position.X < Columns && position.X >= 0 && 

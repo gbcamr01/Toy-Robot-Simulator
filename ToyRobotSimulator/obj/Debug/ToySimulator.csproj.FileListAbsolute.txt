@@ -2,3 +2,12 @@ C:\Users\Jeff\Desktop\New folder\ToyRobotSimulator-master3\ToyRobotSimulator\bin
 C:\Users\Jeff\Desktop\New folder\ToyRobotSimulator-master3\ToyRobotSimulator\bin\Debug\ToyRobotSimulator.pdb
 C:\Users\Jeff\Desktop\New folder\ToyRobotSimulator-master3\ToyRobotSimulator\obj\Debug\ToyRobotSimulator.exe
 C:\Users\Jeff\Desktop\New folder\ToyRobotSimulator-master3\ToyRobotSimulator\obj\Debug\ToyRobotSimulator.pdb
+C:\Users\Jeff\OneDrive\Documents\Repos\ToyRobotSimulator\ToyRobotSimulator\obj\Debug\ToyRobotSimulator.exe
+C:\Users\Jeff\OneDrive\Documents\Repos\ToyRobotSimulator\ToyRobotSimulator\obj\Debug\ToyRobotSimulator.pdb
+C:\Users\Jeff\OneDrive\Documents\Repos\ToyRobotSimulator\ToyRobotSimulator\bin\Debug\ToyRobotSimulator.exe
+C:\Users\Jeff\OneDrive\Documents\Repos\ToyRobotSimulator\ToyRobotSimulator\bin\Debug\ToyRobotSimulator.pdb
+C:\Users\Jeff\OneDrive\Documents\Repos\ToyRobotSimulator\ToyRobotSimulator\obj\Debug\ToySimulator.csprojResolveAssemblyReference.cache
+C:\Users\Jeff\OneDrive\Documents\Repos\ToyRobot\ToyRobotSimulator\obj\Debug\ToyRobotSimulator.exe
+C:\Users\Jeff\OneDrive\Documents\Repos\ToyRobot\ToyRobotSimulator\obj\Debug\ToyRobotSimulator.pdb
+C:\Users\Jeff\OneDrive\Documents\Repos\ToyRobotSim\ToyRobotSimulator\obj\Debug\ToyRobotSimulator.exe
+C:\Users\Jeff\OneDrive\Documents\Repos\ToyRobotSim\ToyRobotSimulator\obj\Debug\ToyRobotSimulator.pdb

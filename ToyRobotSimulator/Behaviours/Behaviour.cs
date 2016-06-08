@@ -1,5 +1,4 @@
-﻿using ToySimulator.ConsoleChecker;
-using ToySimulator.ConsoleChecker.Interface;
+﻿using ToySimulator.ConsoleChecker.Interface;
 using ToySimulator.Toy;
 using ToySimulator.Toy.Interface;
 using ToySimulator.ToyBoard.Interface;
@@ -15,14 +14,14 @@ namespace ToySimulator.Behaviours
     public class Behaviour
     {
         public IToyRobot ToyRobot { get; private set; }
-        public ItoyBoard SquareBoard { get; private set; }
+        public IToyBoard SquareBoard { get; private set; }
         public IInputParser InputParser { get; private set; }
 
-        public Behaviour(IToyRobot toyRobot, ItoyBoard squareBoard, IInputParser inputParser)
+        public Behaviour(IToyRobot toyRobot, IToyBoard squareBoard, IInputParser inputParser)
         {
-            this.ToyRobot = toyRobot;
-            this.SquareBoard = squareBoard;
-            this.InputParser = inputParser;
+            ToyRobot = toyRobot;
+            SquareBoard = squareBoard;
+            InputParser = inputParser;
         }
 
         public string ProcessCommand(string[] input)
@@ -33,8 +32,7 @@ namespace ToySimulator.Behaviours
             switch (command)
             {
                 case Command.Place:
-                    var placeCommandParameter = InputParser.ParseCommandParameter<PlaceCommandParameter>(
-                            new PlaceCommandParameterParser(), input);
+                    var placeCommandParameter = InputParser.ParseCommandParameter(input);
                     if (SquareBoard.IsValidPosition(placeCommandParameter.Position))
                         ToyRobot.Place(placeCommandParameter.Position, placeCommandParameter.Direction);
                     break;
@@ -52,14 +50,13 @@ namespace ToySimulator.Behaviours
                 case Command.Report:
                     return GetReport();
             }
-
             return string.Empty;
         }
 
         public string GetReport()
         {
-            return string.Format("Output: {0},{1},{2}", ToyRobot.Position.X, ToyRobot.Position.Y,
-                ToyRobot.Direction.ToString().ToUpper());
+            return string.Format("Output: {0},{1},{2}", ToyRobot.Position.X,
+                ToyRobot.Position.Y, ToyRobot.Direction.ToString().ToUpper());
         }
     }
 }

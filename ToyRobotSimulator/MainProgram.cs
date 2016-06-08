@@ -38,7 +38,7 @@ namespace ToySimulator
      EXIT   – Closes the toy Simulator.
 ";
 
-            ItoyBoard squareBoard = new ToyBoard.ToyBoard(5, 5);
+            IToyBoard squareBoard = new ToyBoard.ToyBoard(5, 5);
             IInputParser inputParser = new InputParser();
             IToyRobot robot = new ToyRobot();
             var simulator = new Behaviours.Behaviour(robot, squareBoard, inputParser);
@@ -66,7 +66,6 @@ namespace ToySimulator
                     }
                 }
             } while (!stopApplication);
-
         }
     }
 }

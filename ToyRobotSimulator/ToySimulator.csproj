@@ -56,15 +56,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConsoleChecker\Interface\ICommandParameter.cs" />
-    <Compile Include="ConsoleChecker\Interface\ICommandParameterChecker.cs" />
     <Compile Include="ConsoleChecker\PlaceCommandParameterParser.cs" />
     <Compile Include="Toy\Command.cs" />
     <Compile Include="ConsoleChecker\InputParser.cs" />
     <Compile Include="ConsoleChecker\PlaceCommandParameter.cs" />
     <Compile Include="ConsoleChecker\Interface\IInputParser.cs" />
     <Compile Include="Toy\Interface\IToyRobot.cs" />
-    <Compile Include="Board\Interface\ItoyBoard.cs" />
+    <Compile Include="Board\Interface\IToyBoard.cs" />
     <Compile Include="Behaviours\Behaviour.cs" />
     <Compile Include="Toy\Direction.cs" />
     <Compile Include="MainProgram.cs" />
