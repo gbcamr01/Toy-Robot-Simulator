@@ -1,10 +1,9 @@
 <h3>Toy Robot Simulator</h3>
 <img src = "https://github.com/jeff1978/Toy-Robot-Simulator/blob/master/robot.jpg" align = right>
-This C# .NET solution is a simulator of a toy robot that moves on a tabletop.<br>A full requirements specification can be found here: <a href = "https://github.com/jeff1978/Toy-Robot-Simulator/blob/master/ToyRobotSimulator/App%20Specification.txt">App Specification.txt</a> The development of this project is driven by unit testing (tests and mockups are included in this repo)
+This C# .NET solution is a simulator of a toy robot that moves on a tabletop.<br>A full requirements specification can be found here: <a href = "https://github.com/jeff1978/Toy-Robot-Simulator/blob/master/ToyRobotSimulator/App%20Specification.txt">App Specification.txt</a> The development of this project is driven by unit tests. These are included in this repository.
 <br><h4>Design Patterns Used</h4>
 <b>Command :</b>
-<br>A command class is used to represent user data, validate it and return appropriate object types. The class also processes command parameters where appropriate (for example, the Place command)
-
+<br>A class is used to represent user input data, validate it and return appropriate object types or error mes
 <h3>Usage</h3>
 Toy Robot Simulator is a console application. It opens and gives the user instructions on how to place and interact with the toy.
 
