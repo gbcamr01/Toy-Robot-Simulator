@@ -1,36 +1,26 @@
 <h3>Toy Robot Simulator</h3>
 <img src = "https://github.com/jeff1978/Toy-Robot-Simulator/blob/master/robot.jpg" align = right>
-This C# .NET solution is a simulator of a toy robot that moves on a tabletop.<br>A full requirements specification can be found here:<br><a href = "https://github.com/jeff1978/Toy-Robot-Simulator/blob/master/ToyRobotSimulator/App%20Specification.txt">App Specification.txt</a><br>The development of this project is driven by unit tests. These are included in this repository.
+This C# .NET solution is a simulator of a toy robot that moves on a tabletop. The development of this project is driven by unit tests. These are included in this repository. A full requirements specification can be found here:<br><a href = "https://github.com/jeff1978/Toy-Robot-Simulator/blob/master/ToyRobotSimulator/App%20Specification.txt">App Specification.txt</a>
 <br><h4>Design Patterns Used</h4>
 <b>Command :</b>
 <br>A class is used to represent user input data, validate it and return appropriate object types or error messages. The class has no dependencies and it's methods are unit tested before being set to work with the rest of the application.
-<h3>Usage</h3>
-Toy Robot Simulator is a console application. It opens and gives the user instructions on how to place and interact with the toy.
-
-<h3>Valid commands</h3>
+<h4>Instructions</h4>
+Follow the on screen instructions to place a robot and move it around the board. To exit the application at any time type EXIT (this must be in uppercase)
+<h4>Valid commands</h4>
 PLACE X,Y,FACING<br>This puts the toy on the table in position X,Y and facing NORTH, SOUTH, EAST or WEST. If the toy is already placed, issuing another valid PLACE command will place the toy in the newly specified location.
-
 MOVE
 This moves the toy one unit forward in the direction it is currently facing.
-
 LEFT
 This rotates the toy 90 degrees to the left (i.e. counter-clockwise) without changing the position.
-
 RIGHT
 This rotates toy 90 degrees to the right (i.e. clockwise) without changing the position.
-
 REPORT
 This announces the X,Y and direction of the toy by printing to the console.
-
 EXIT This closes the application.
-
-<h3>Supported operating systems</h3>
+<h4>Supported operating systems</h4>
 Toy Robot Simulator should run on any Windows operating system. It has been tested on Windows 10 Home Edition 32-bit.
-
-<h3>Installing</h3>
-The application runs in a single executable file. The file can be downloaded from: <a href = "https://github.com/jeff1978/Toy-Robot-Simulator/blob/master/ToyRobotSimulator/bin/Debug/ToyRobotSimulator.exe">\ToyRobotSimulator\bin\Debug\ToyRobotSimulator.exe</a><br>Note: Some user priviledges may prevent the downloading or opening of this file type. Affected users should check with their network administrator.
-
-<h3>Running</h3>
+<h4>Installing and Running</h4>
+The application runs in a single executable file. For convenience the file can be downloaded from: <a href = "https://github.com/jeff1978/Toy-Robot-Simulator/blob/master/ToyRobotSimulator/bin/Debug/ToyRobotSimulator.exe">\ToyRobotSimulator\bin\Debug\ToyRobotSimulator.exe</a>
 The executable file can be opened by double clicking it. The user can follow instructions on the console and also use it to type their input.
 
 <h3>Development Notes and Acknowledgements</h3>
@@ -38,11 +28,6 @@ A full list of information sources can be found here: <a href = "https://github.
 
 <h3>Issues</h3>
 Existing issues can be logged on the <a href = "https://github.com/jeff1978/Toy-Robot-Simulator/issues">Issues page.</a>
-
-<h3>Unit Testing</h3>
-C# Test files are found here: <a href = "https://github.com/jeff1978/Toy-Robot-Simulator/tree/master/ToyRobotSimulator.Test">\ToyRobotSimulator.Test</a>
-<br>Tests were run using the nuget packages: NUnit 2.6.4 and NUnit Test Adapter 2.0.0
-
 <h3>Future Developement Work</h3>
 The the design and use of the interfaces requires refactoring from their current working form.<br>The classes for console checking also need to be checked for possible refactoring.
 
