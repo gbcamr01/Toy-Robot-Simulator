@@ -15,10 +15,10 @@ Follow the on screen instructions to place a robot and move it around the board.
 The application runs in a single executable file which can be opened by double clicking it. The user can follow instructions on the console and also use it to type their input. For convenience the file can be downloaded from here:
 <br><a href = "https://github.com/jeff1978/Toy-Robot-Simulator/blob/master/ToyRobotSimulator/bin/Debug/ToyRobotSimulator.exe">ToyRobotSimulator.exe</a>
 <h4>Unit Testing</h4>
-C# Test files are found here: <a href = "https://github.com/jeff1978/BattleShips/tree/master/BattleShipsTests">\BattleShipsTests</a>
+C# Test files are found here: <a href = "https://github.com/jeff1978/Toy-Robot-Simulator/tree/master/ToyRobotSimulator.Test">BattleShipsTests</a>
 <br>Tests were run using the nuget packages: NUnit 2.6.4 and NUnit Test Adapter 2.0.0
 <h4>Notes and Acknowledgements</h4>
-A full list of information sources can be found here: <a href = "https://github.com/jeff1978/Toy-Robot-Simulator/blob/master/ToyRobotSimulator/Acknowledgements.txt">\ToyRobotSimulator\Acknowledgements.txt.</a>
+A full list of information sources can be found here: <a href = "https://github.com/jeff1978/Toy-Robot-Simulator/blob/master/ToyRobotSimulator/Acknowledgements.txt">Acknowledgements.txt.</a>
 <h4>Supported Operating Systems and Issues</h4>
 Toy Robot Simulator should run on any Windows operating system. It has been tested on Windows 10 Home Edition 32-bit. Existing issues can be logged on the <a href = "https://github.com/jeff1978/Toy-Robot-Simulator/issues">Issues page.</a>
 <h4>Licence</h4>
