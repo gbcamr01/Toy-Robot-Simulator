@@ -12,7 +12,8 @@ Follow the on screen instructions to place a robot and move it around the board.
 <br>RIGHT : This rotates toy 90 degrees to the right (i.e. clockwise) without changing the position.
 <br>REPORT : This announces the X,Y and direction of the toy by printing to the console.
 <h4>Installing and Running</h4>
-The application runs in a single executable file. For convenience the file can be downloaded from here: <a href = "https://github.com/jeff1978/Toy-Robot-Simulator/blob/master/ToyRobotSimulator/bin/Debug/ToyRobotSimulator.exe">\ToyRobotSimulator\bin\Debug\ToyRobotSimulator.exe</a> The executable file can be opened by double clicking it. The user can follow instructions on the console and also use it to type their input.
+The application runs in a single executable file which can be opened by double clicking it. The user can follow instructions on the console and also use it to type their input. For convenience the file can be downloaded from here:
+<br><a href = "https://github.com/jeff1978/Toy-Robot-Simulator/blob/master/ToyRobotSimulator/bin/Debug/ToyRobotSimulator.exe">ToyRobotSimulator.exe</a>
 <h4>Development Notes and Acknowledgements</h4>
 A full list of information sources can be found here: <a href = "https://github.com/jeff1978/Toy-Robot-Simulator/blob/master/ToyRobotSimulator/Acknowledgements.txt">\ToyRobotSimulator\Acknowledgements.txt.</a>
 <h4>Supported Operating Systems</h4>
