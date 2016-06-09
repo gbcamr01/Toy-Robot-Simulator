@@ -17,16 +17,10 @@ The application runs in a single executable file which can be opened by double c
 <h4>Unit Testing</h4>
 C# Test files are found here: <a href = "https://github.com/jeff1978/BattleShips/tree/master/BattleShipsTests">\BattleShipsTests</a>
 <br>Tests were run using the nuget packages: NUnit 2.6.4 and NUnit Test Adapter 2.0.0
-
-<h4>Development Notes and Acknowledgements</h4>
+<h4>Notes and Acknowledgements</h4>
 A full list of information sources can be found here: <a href = "https://github.com/jeff1978/Toy-Robot-Simulator/blob/master/ToyRobotSimulator/Acknowledgements.txt">\ToyRobotSimulator\Acknowledgements.txt.</a>
-<h4>Supported Operating Systems</h4>
-Toy Robot Simulator should run on any Windows operating system. It has been tested on Windows 10 Home Edition 32-bit.
-<h4>Issues</h4>
-Existing issues can be logged on the <a href = "https://github.com/jeff1978/Toy-Robot-Simulator/issues">Issues page.</a>
-<h4>Future Developement Work</h4>
-The the design and use of the interfaces requires refactoring from their current working form.<br>The classes for console checking also need to be checked for possible refactoring.
+<h4>Supported Operating Systems and Issues</h4>
+Toy Robot Simulator should run on any Windows operating system. It has been tested on Windows 10 Home Edition 32-bit. Existing issues can be logged on the <a href = "https://github.com/jeff1978/Toy-Robot-Simulator/issues">Issues page.</a>
 <h4>Licence</h4>
-Toy Robot Simulator is licensed under the GNU Lesser General Public License v.3.0
-<h4>Why the LGPL?</h4>
+Toy Robot Simulator is licensed under the GNU Lesser General Public License v.3.0<br>
 The GPL is specifically designed to reduce the usefulness of GPL-licensed code to closed-source, proprietary software. The BSD license (and similar) do not mandate code-sharing if the BSD-licensed code is modified by licensees. The LGPL achieves the best of both worlds: an LGPL-licensed library can be incorporated within closed-source proprietary code, and yet those using an LGPL-licensed library are required to release source code to that library if they change it.
